@@ -1,0 +1,25 @@
+#first {
+    color: white;
+  }
+
+
+  #first, #second {
+    font-size: 4rem;
+  }
+
+  #rectangle {
+    height: 50%;
+    width: 100%;
+    background-color: #002868;
+    position: relative;
+  }
+
+  #rectangle > #circle {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 350px;
+    top: 50px;
+  }
